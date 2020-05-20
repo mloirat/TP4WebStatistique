@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Site</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-md-12">
+          <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <!-- Links -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="accueil.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nourriture.html">Nourriture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sport.html">Sport</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sommeil.html">Sommeil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  A propos
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="equipe.html">Equipe</a>
+                  <a class="dropdown-item" href="contact.html">Contact</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Header -->
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="jumbotron jumbotron-fluid" style="position: center;">
+              <h1 class="display-4" style="margin-left: 20px; ">Moniteur d'activités</h1>
+              <p class="lead" style="margin-left: 20px;">Bienvenue sur notre outil de suivi d'activités. Visualisez les statistiques sur vos repas, vos activités sportives ou encore sur votre sommeil.</p>
+            </div>
+        </div>
+      </div>
+
+      <!-- Topics -->
+      <div class="row">
+        <div class="col-md-2 offset-md-2">
+          <div class="card" >
+            <img class="card-img-top" src="/old/img/nourriture.jpg" alt="image nourriture">
+            <div class="card-body">
+              <i<h5 class="card-title"><strong>Nourriture :</strong></h5>
+              <p class="card-text" >Suivez vos repas : heure, type, quantité, calories... </p>
+              <a href="nourriture.html" class="btn btn-primary">voir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card" >
+            <img class="card-img-top" src="/old/img/sport.jpg" alt="image sport">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Sport :</strong></h5>
+              <p class="card-text">Quelles activités avez-vous pratiquées aujourd'hui ?</p>
+              <a href="sport.html" class="btn btn-primary">voir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="/old/img/sommeil.jpg" alt="image sommeil">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Sommeil :</strong></h5>
+              <p class="card-text">Dormez-vous assez ? Suivez la qualité de votre sommeil. </p>
+              <a href="sommeil.html" class="btn btn-primary">voir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="card">
+            <img class="card-img-top" src="/old/img/photos.jpg" alt="image photo">
+            <div class="card-body">
+              <h5 class="card-title"><strong>Blog :</strong></h5>
+              <p class="card-text">Où êtes vous allé ? Suivez votre activité en image !</p>
+              <a href="blog.html" class="btn btn-primary">voir plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+  </body>
+</html>
