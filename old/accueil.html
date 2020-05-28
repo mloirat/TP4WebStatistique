@@ -10,45 +10,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row ">
-        <div class="col-md-12">
-          <nav class="navbar navbar-expand-sm bg-light navbar-light">
-            <!-- Links -->
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="accueil.html">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nourriture.html">Nourriture</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sport.html">Sport</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sommeil.html">Sommeil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <!-- Dropdown -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  A propos
-                </a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="equipe.html">Equipe</a>
-                  <a class="dropdown-item" href="contact.html">Contact</a>
-                </div>
-              </li>
-            </ul>
-          </nav>
-        </div>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light" id="navbar">
+      <!--Button toggler-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="accueil.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nourriture.html">Nourriture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sport.html">Sport</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sommeil.html">Sommeil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              A propos
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="equipe.html">Equipe</a>
+              <a class="dropdown-item" href="contact.html">Contact</a>
+            </div>
+          </li>
+        </ul>
       </div>
-      <!-- Header -->
-      <br>
+    </nav>
+    <br>
+    <!-- Header -->
+    <div class="container">
       <div class="row">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-10 offset-md-2">
             <div class="jumbotron jumbotron-fluid" style="position: center;">
               <h1 class="display-4" style="margin-left: 20px; ">
               <span class="material-icons">apps</span>
@@ -60,19 +62,18 @@
 
       <!-- Topics -->
       <div class="row">
-        <div class="col-md-2 offset-md-2">
+        <div class="col offset-md-2">
           <div class="card" >
-            <img class="card-img-top" src="/old/img/nourriture.jpg" alt="image nourriture">
+            <img class="card-img-top" src="/old/img/sport.jpg" alt="image sport">
             <div class="card-body">
-              <h5 class="card-title">
-                <span class="material-icons">fastfoods</span>
-                <strong>Nourriture :</strong></h5>
-              <p class="card-text" >Suivez vos repas : heure, type, quantité, calories... </p>
+              <h5 class="card-title"> 
+                <span class="material-icons">fastfoods</span><strong>Nourriture :</strong></h5>
+              <p class="card-text">Suivez vos repas : heure, type, quantité, calories... </p>
               <a href="nourriture.html" class="btn btn-primary">voir plus</a>
             </div>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col">
           <div class="card" >
             <img class="card-img-top" src="/old/img/sport.jpg" alt="image sport">
             <div class="card-body">
@@ -84,7 +85,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col">
           <div class="card">
             <img class="card-img-top" src="/old/img/sommeil.jpg" alt="image sommeil">
             <div class="card-body">
@@ -96,7 +97,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col">
           <div class="card">
             <img class="card-img-top" src="/old/img/photos.jpg" alt="image photo">
             <div class="card-body">

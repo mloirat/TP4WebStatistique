@@ -10,48 +10,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row ">
-        <div class="col-md-12">
-          <nav class="navbar navbar-expand-sm bg-light navbar-light">
-            <!-- Links -->
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="accueil.html">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nourriture.html">Nourriture</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sport.html">Sport</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="sommeil.html">Sommeil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <!-- Dropdown -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                  A propos
-                </a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="equipe.html">Equipe</a>
-                    <a class="dropdown-item" href="contact.html">Contact</a>
-                </div>
-              </li>
-            </ul>
-          </nav>
-        </div>
+    <nav class="navbar navbar-expand-sm bg-light navbar-light" id="navbar">
+      <!--Button toggler-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="accueil.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nourriture.html">Nourriture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sport.html">Sport</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sommeil.html">Sommeil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              A propos
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="equipe.html">Equipe</a>
+              <a class="dropdown-item" href="contact.html">Contact</a>
+            </div>
+          </li>
+        </ul>
       </div>
-    
-      <div class="container-fluid">
+    </nav>
+    <br>
+      <div class="container">
         <div class="row">
-          <div class="col-md-6 offset-md-3">
+          <div class="col offset-md-3">
             <!-- Sport -->
             <div id="sport">
-              <h2>Sport - performances de la semaine</h2>
+              <h3>Sport - performances de la semaine</h3>
+              <br>
           <div class="card">
             <div class="card-header">
               Vélo du 10 mai 2017
@@ -80,7 +82,7 @@
                       <td>00:50:00</td>
                       <td>Saint-Renan</td>
                       <td><span class="material-icons">
-                        arrow_downward
+                        arrow_upward
                         </span></td>
                     </tr>
                     <tr>
@@ -96,13 +98,14 @@
                       <td>02:00:00</td>
                       <td>Brest</td>
                       <td><span class="material-icons">
-                        arrow_upward
+                        arrow_downward
                         </span></td>
                     </tr>
                   </tbody>
                 </table>
               </div>
             </div>
+            <br>
             <div class="card">
               <div class="card-header">
                 Footing du 12 janvier 2017
@@ -128,39 +131,32 @@
                         <th scope="row">1.7</th>
                         <td>00:11:00</td>
                         <td>Plage du Moulin Blanc</td>
-                        <td>@fat</td>
+                        <td><span class="material-icons">
+                          arrow_upward
+                          </span></td>
                       </tr>
                       <tr>
                         <th scope="row">4.6</th>
                         <td>00:29:00</td>
                         <td>Vallon du Stang Alar</td>
-                        <td>@twitter</td>
+                        <td><span class="material-icons">
+                          arrow_upward
+                          </span></td>
                       </tr>
                       <tr>
                         <th scope="row">7.3</th>
                         <td>00:44:00</td>
                         <td>Océanopolis</td>
-                        <td>@twitter</td>
+                        <td><span class="material-icons">
+                          arrow_downward
+                          </span></td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
               </div>
             </div>
-                
-              <ul>
-                <li>0Km - 00:00:00 - Brest</li>
-                <li>13.3Km - 00:50:00 - Saint-Renan</li>
-                <li>20.5Km - 01:20:00 - Milizac</li>
-                <li>32Km - 02:00:00 - Brest</li>
-              </ul>
-                
-              <ul>
-                <li>0Km - 00:00:00 - Océanopolis</li>
-                <li>1.7Km - 00:11:00 - Plage du Moulin Blanc</li>
-                <li>4.6Km - 00:29:00 - Vallon du Stang Alar</li>
-                <li>7.3Km - 00:44:00 - Océanopolis</li>
-              </ul>
+              <br>  
             </div>
         </div>
       </div>
